@@ -1,0 +1,63 @@
+/* ==================================================================== */
+/* === Normalize ====================================================== */
+/* ==================================================================== */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+article, aside, details, figcaption, figure, footer,
+header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* ==================================================================== */
+/* === Global ========================================================= */
+/* ==================================================================== */
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.42857143;
+    letter-spacing: 0.01em;
+    background-color: #fff;
+    color: #333;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* ==================================================================== */
+/* === Media Queries ================================================== */
+/* ==================================================================== */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
